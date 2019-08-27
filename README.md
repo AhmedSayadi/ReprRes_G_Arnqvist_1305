@@ -19,9 +19,10 @@ The content of this repository can be obtained in two ways:
 * **README.md** This file.
 
 ## Folders
-* **Genome Assembly**
-* ** Genome Annotation**
-* **Popoolation** In this directory you will find two shell scripts that should be used to reproduce the SNP file (Popoolation output file tool).
+### ** Genome Assembly**
+### ** Genome Annotation**
+### **Popoolation**
+In this directory you will find two shell scripts that should be used to reproduce the SNP file (Popoolation output file tool).
 1- first you need to run PopoolationPart1.sh and then PopoolationPart2.sh
 several modules need to be installed (Python, bowtie2, smatools, bcftools, bwa, java, picard).
 Raw file data need to be downloaded: (Genome assembly file, raw sequencing data).
@@ -39,7 +40,7 @@ mkdir mapping
 bash PoPoolationPart1.sh
 bash PoPoolationPart2.sh
 ```
-
+### 
 
 ## Contact
 * Göran Arnqvist group, UU:
