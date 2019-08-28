@@ -48,12 +48,19 @@ bash PoPoolationPart1.sh
 bash PoPoolationPart2.sh
 ```
 **tr.to.Gff.pl:**
+
 You can use this script to axtract all CDS positions from the annotation file (gff) for each list of trancripts (SFP, Digestive enzymes, Abodmen, Head&Thorax).
+
 the gff file is provided in the data folder.
+
 ``` perl tr.to.Gff.pl ```
+
 **gff.to.SNPs.pl**
+
 For each list of CDSs you can extract the list of SNPs.
+
 ``` gff.to.SNPs.pl ```
+
 
 ## Contact
 * Göran Arnqvist group, UU:
