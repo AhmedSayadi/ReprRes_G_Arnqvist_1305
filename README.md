@@ -19,16 +19,20 @@ The content of this repository can be obtained in two ways:
 * **README.md** This file.
 
 ## Folders
+### Data
+In this folder you will find several data files.
+- 
 **Genome Assembly**
+Please refer to M&M section of the paper for more details.
 
 **Genome Annotation**
+Please refer to M&M section of the paper for more details.
 
 **Popoolation**
 
-In this directory you will find two shell scripts that should be used to reproduce the SNP file (Popoolation output file tool).
-1- first you need to run PopoolationPart1.sh and then PopoolationPart2.sh
+**PopoolationPart1.sh, PopoolationPart2.sh:** In order to get the output result file from Popoolation you to run both scripts.
 several modules need to be installed (Python, bowtie2, smatools, bcftools, bwa, java, picard).
-Raw file data need to be downloaded: (Genome assembly file, raw sequencing data).
+The Raw files data need to be downloaded: (Genome assembly file, raw sequencing data).
 The annotated genome assembly, along with sequence data, is available from the European Nucleotide Archive (ENA) under accession PRJEB30475.
 All Pool-seq raw sequencing data have been deposited at the NCBI sequence read archive, under the accession number PRJNA503561.
 Please modify the script according to your folder organisation.
@@ -43,7 +47,13 @@ mkdir mapping
 bash PoPoolationPart1.sh
 bash PoPoolationPart2.sh
 ```
-### Data
+**tr.to.Gff.pl:**
+You can use this script to axtract all CDS positions from the annotation file (gff) for each list of trancripts (SFP, Digestive enzymes, Abodmen, Head&Thorax).
+the gff file is provided in the data folder.
+``` perl tr.to.Gff.pl ```
+**gff.to.SNPs.pl**
+For each list of CDSs you can extract the list of SNPs.
+``` gff.to.SNPs.pl ```
 
 ## Contact
 * Göran Arnqvist group, UU:
