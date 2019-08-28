@@ -20,7 +20,9 @@ The content of this repository can be obtained in two ways:
 
 ## Folders
 ** Genome Assembly**
+
 ** Genome Annotation**
+
 **Popoolation**
 In this directory you will find two shell scripts that should be used to reproduce the SNP file (Popoolation output file tool).
 1- first you need to run PopoolationPart1.sh and then PopoolationPart2.sh
@@ -40,7 +42,7 @@ mkdir mapping
 bash PoPoolationPart1.sh
 bash PoPoolationPart2.sh
 ```
-### 
+### Data
 
 ## Contact
 * Göran Arnqvist group, UU:
