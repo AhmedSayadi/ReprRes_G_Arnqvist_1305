@@ -51,14 +51,17 @@ This script is used to extract for each list of CDSs the corresponding  list of 
 
 **2- SNPs.to.cmh.allCDSs.pl:**
 To get the cmh value of each SNP in the CDS regions, you can run this script.
+
 ```perl SNPs.to.cmh.allCDSs.pl```
 
 **4- SNPs.to.cmh.pl:**
 To get the cmh value of each SNP in the CDS regions, for each list of trancripts (SFP, Digestive enzymes, Abodmen, Head&Thorax). you can run this script.
+
 ```perl SNPs.to.cmh.pl```
 
 **5- Polymorphic.CDSs.pl:**
 to get the list of SNPs present in the 3 pop in both samples at a proportion of at least 30/70.
+
 ```perl Polymorphic.CDSs.pl > Polymorphic.SNPs.CDSs.txt```
 
 **6- SNPsLogFC.pl:** to get the LogFC value for each SNP in the list of transcripts Abodmen and Head&thorax, you need to run this script.
