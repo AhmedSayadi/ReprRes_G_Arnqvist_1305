@@ -70,6 +70,7 @@ to get the list of SNPs present in the 3 pop in both samples at a proportion of 
 
 **6- SNPsLogFC.pl:** to get the LogFC value for each SNP in the list of transcripts Abodmen and Head&thorax, you need to run this script.
 you need to modify the first line of the script to select the input file.
+
 ```perl SNPsLogFC.pl > output.txt```
 
 **6- Go.terms.enrichment.R:** 
