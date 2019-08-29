@@ -51,23 +51,31 @@ After runinig the script PopoolationPart1.sh, as an output you will get the Bra.
 PoPoolationPart2.sh uses the mpileup file to produce the sync file, the cmh file and the fst file.
 Please refer to popoolation manual to get familiar with all the output files.
 
-**1- tr.to.Gff.pl:**
-
-You can use this script to axtract all CDS positions from the annotation file (gff) for each list of trancripts (SFP, Digestive enzymes, Abodmen, Head&Thorax).
-The gff file is provided in the data folder.
-
-```perl tr.to.Gff.pl```
-
-**2- gff.to.SNPs.pl:**
-
+**1- gff.to.SNPs.pl:**
 This script is used to extract for each list of CDSs the corresponding  list of SNPs.
 
 ```perl gff.to.SNPs.pl```
 
-**3- SNPs.to.cmh.pl:**
-To get the cmh value of each SNP, you can run this script.
+**2- SNPs.to.cmh.allCDSs.pl:**
+To get the cmh value of each SNP in the CDS regions, you can run this script.
+```perl SNPs.to.cmh.allCDSs.pl```
 
+**4- SNPs.to.cmh.pl:**
+To get the cmh value of each SNP in the CDS regions, for each list of trancripts (SFP, Digestive enzymes, Abodmen, Head&Thorax). you can run this script.
 ```perl SNPs.to.cmh.pl```
+
+**5- Polymorphic.CDSs.pl:**
+to get the list of SNPs present in the 3 pop in both samples at a proportion of at least 30/70.
+```perl Polymorphic.CDSs.pl > Polymorphic.SNPs.CDSs.txt```
+
+**6- SNPsLogFC.pl:** to get the LogFC value for each SNP in the list of transcripts Abodmen and Head&thorax, you need to run this script.
+you need to modify the first line of the script to select the input file.
+```perl SNPsLogFC.pl > output.txt```
+
+**6- Go.terms.enrichment.R:** 
+Go term enrichment calculatin is made using this script.
+
+please modify the read.table line to specify the input file.
 
 ## Contact
 * Göran Arnqvist group, UU:
