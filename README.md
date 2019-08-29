@@ -17,18 +17,9 @@ The content of this repository can be obtained in two ways:
 
 ## Repository content:
 
-**README.md** This file.
-
-## Folders
-### Data
-
+**Data:**
 In this folder you will find several data files.
-
-**Genome Assembly**
-Please refer to M&M section of the paper for more details.
-
-**Genome Annotation**
-Please refer to M&M section of the paper for more details.
+**README.md** This file.
 
 **Popoolation**
 
