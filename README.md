@@ -47,19 +47,27 @@ mkdir mapping
 bash PoPoolationPart1.sh
 bash PoPoolationPart2.sh
 ```
-**tr.to.Gff.pl:**
+After runinig the script PopoolationPart1.sh, as an output you will get the Bra.Ca.Yem.idf.mpileup file.
+PoPoolationPart2.sh uses the mpileup file to produce the sync file, the cmh file and the fst file.
+Please refer to popoolation manual to get familiar with all the output files.
+
+**1- tr.to.Gff.pl:**
 
 You can use this script to axtract all CDS positions from the annotation file (gff) for each list of trancripts (SFP, Digestive enzymes, Abodmen, Head&Thorax).
 The gff file is provided in the data folder.
 
-``` perl tr.to.Gff.pl ```
+```perl tr.to.Gff.pl```
 
-**gff.to.SNPs.pl:**
+**2- gff.to.SNPs.pl:**
 
 This script is used to extract for each list of CDSs the corresponding  list of SNPs.
 
-``` gff.to.SNPs.pl ```
+```perl gff.to.SNPs.pl```
 
+**3- SNPs.to.cmh.pl:**
+To get the cmh value of each SNP, you can run this script.
+
+```perl SNPs.to.cmh.pl```
 
 ## Contact
 * Göran Arnqvist group, UU:
