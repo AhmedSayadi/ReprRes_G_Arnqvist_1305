@@ -16,12 +16,14 @@ The content of this repository can be obtained in two ways:
 #### Running the scripts
 
 ## Repository content:
-* **README.md** This file.
+
+**README.md** This file.
 
 ## Folders
 ### Data
+
 In this folder you will find several data files.
-- 
+
 **Genome Assembly**
 Please refer to M&M section of the paper for more details.
 
